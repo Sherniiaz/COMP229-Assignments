@@ -1,0 +1,44 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+
+
+
+<main class="container">
+        <h1><%= title %></h1>
+        <p>
+            Welcome to
+            <%= title %>
+        </p>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Message</label>
+                <textarea class="form-control" id="Message" placeholder="Message"></textarea>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Check me out
+                </label>
+            </div>
+            <td class=”button” background-color="#1F83FF">
+                      <a href = "mailto: sovetbekuulu.2002@gmail.com">Submit</a>
+            </td>
+        </form>
+        <br>
+        My social pages:
+        <div class="container margin-top">
+        <a href="http://instagram.com/_u/shineofjoy_/">Link to Instagram Page</a>
+        <br>
+        <a href="https://ms-my.facebook.com/sherniyaz.sovetbekuulu">Link to Facebook Page</a>
+        
+        </div>
+    </main>
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
+

@@ -1,0 +1,15 @@
+.img-logo {
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+  }
+  .img-background {
+    background-image: url('Assets/images/background.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+
+
+  }
